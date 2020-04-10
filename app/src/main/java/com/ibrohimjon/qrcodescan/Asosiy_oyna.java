@@ -59,7 +59,7 @@ public class Asosiy_oyna extends AppCompatActivity {
                 .setBarcodeFormats(Barcode.QR_CODE).build();
 
         cameraSource = new CameraSource.Builder(this, detector)
-                .setRequestedPreviewSize(surfaceView.getWidth(), surfaceView.getHeight())
+                .setRequestedPreviewSize(640,640)
                 .build();
 
         surfaceView.getHolder().addCallback(new SurfaceHolder.Callback() {
